@@ -1,0 +1,2 @@
+# Once published to PyPI, replace with: openfaas-sdk
+openfaas-sdk @ git+https://github.com/openfaas/python-sdk.git

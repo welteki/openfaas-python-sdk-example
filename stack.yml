@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: https://gateway.openfaas.welteki.dev
+
+functions:
+  greeter:
+    lang: python3-http
+    handler: ./greeter
+    image: ttl.sh/greeter:1h
